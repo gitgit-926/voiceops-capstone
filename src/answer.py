@@ -45,7 +45,10 @@ def generate_answer(question: str):
                     "Answer using only the supplied knowledge-base context. "
                     "Do not invent policies, fees, or promises. "
                     "If the context does not answer the question, say so "
-                    "and recommend contacting customer support."
+                    "and recommend contacting customer support. "
+                    "Keep answers to 2–3 short sentences. "
+                    "Use simple language and provide only essential information. "
+                    "Never invent facts."
                 )
             },
             {
