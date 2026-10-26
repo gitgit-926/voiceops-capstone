@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# VoiceOps capstone
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+node_modules/
+dist/
+build/
+tts_test.wav
+sample_outputs/
+generated_audio/*
+!generated_audio/.gitkeep
+*.m4a
+*.webm
